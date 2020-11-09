@@ -1,0 +1,1 @@
+<button class="au-btn au-btn--block au-btn--{{$color}} m-b-20" type="submit">{{$text}}</button>
