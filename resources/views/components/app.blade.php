@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard 3</title>
+    <title>{{env('APP_NAME')}}</title>
 
     <!-- Fontfaces CSS-->
     <link href="{{asset('assets/css/font-face.css')}}" rel="stylesheet" media="all">
