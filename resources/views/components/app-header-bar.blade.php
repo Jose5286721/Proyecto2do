@@ -114,7 +114,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="images/icon/logo-white.png" alt="CoolAdmin" />
+                            <img src="{{asset('assets/images/icon/logo-mini.png')}}" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -212,22 +212,9 @@
                                     <span class="email">{{$user->email}}</span>
                                 </div>
                             </div>
-                            <div class="account-dropdown__body">
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-account"></i>Account</a>
-                                </div>
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-settings"></i>Setting</a>
-                                </div>
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                </div>
-                            </div>
+                            
                             <div class="account-dropdown__footer">
-                                <a href="#">
+                                <a href="#" onclick="document.getElementById('logout-form').submit()">
                                     <i class="zmdi zmdi-power"></i>Logout</a>
                             </div>
                         </div>
