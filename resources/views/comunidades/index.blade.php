@@ -4,7 +4,7 @@
         <x-app-section-breadcrumb />
         <x-app-section-statistic-container>
             <div class="col-lg-8 offset-lg-2">
-                <table class="table table-borderless table-data3">
+                <table class="table table-borderless table-data3 table-responsive">
                     <thead>
                         <tr>
                             <th>ID</th>
